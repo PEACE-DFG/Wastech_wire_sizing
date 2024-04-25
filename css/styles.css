@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box; 
+}
+
+body{
+  /* background-image: url('https://5.imimg.com/data5/PN/DX/GLADMIN-7004027/power-quality.png');
+   */
+  background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url('https://5.imimg.com/data5/PN/DX/GLADMIN-7004027/power-quality.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo{
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Jersey 25", sans-serif;
+}
+.caption{
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Jersey 25", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+.intro{
+  color: rgb(186, 183, 183);
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Jersey 25", sans-serif;
+  text-align: center;
+}
+#text{
+  padding-top: 70px;
+}
+.root{
+  font-size: 30px;
+  font-weight: 500
+}
+#button{
+  font-size: 25px;
+  font-weight:500
+}
+/* responsiveness */
+@media(max-width:543px){
+  #text{
+    padding-top: 30px;
+  }
+}
+@media(max-width:541px){
+  #text{
+    padding-top: 16px;
+  }
+}
+@media(max-width:527px){
+  #text{
+    padding-top: 6px;
+  }
+  .caption{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+}
+@media(max-width:509px){
+  #text{
+    padding-top: 6px;
+  }
+  .caption{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+}
+@media(max-width:499px){
+  #text{
+    padding-top: 6px;
+  }
+  .caption{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+}
+@media(max-width:483px){
+  #text{
+    padding-top: 6px;
+  }
+  .caption{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .intro{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+  }
+}
+@media(max-width:427px){
+  #text{
+    padding-top: 6px;
+  }
+  .caption{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .intro{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+  }
+}
+
+@media(max-width:414px){
+  #text{
+    padding-top: 0px;
+  }
+  .caption{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .intro{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+  }
+  #button{
+    font-size: 18px;
+    font-weight:500
+  }
+}
+@media(max-width:390px){
+  #text{
+    padding-top: 0px;
+  }
+  .caption{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .intro{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+  }
+  #button{
+    font-size: 18px;
+    font-weight:500
+  }
+}
