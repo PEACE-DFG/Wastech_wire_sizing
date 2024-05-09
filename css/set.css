@@ -36,19 +36,32 @@ body{
   font-family: "Jersey 25", sans-serif;
   text-align: center;
 }
-#text{
-  padding-top: 70px;
+/* #text{
+  padding-top: 10px;
+} */
+#linkedin{
+  text-decoration: none;
+  
 }
 .root{
   font-size: 30px;
   font-weight: 500
 }
-#linkedin{
-  text-decoration: none;
-}
 #button{
   font-size: 25px;
   font-weight:500
+}
+#back{
+  border: 2px solid white; 
+  padding:10px;
+  width:fit-content;
+  border-radius:50%;
+  color: white;
+}
+#back:hover{
+  background-color: white;
+  color: black;
+
 }
 /* responsiveness */
 @media(max-width:543px){

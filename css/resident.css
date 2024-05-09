@@ -36,8 +36,20 @@ body{
   font-family: "Jersey 25", sans-serif;
   text-align: center;
 }
-#text{
+/* #text{
   padding-top: 70px;
+} */
+#back{
+  border: 2px solid white; 
+  padding:10px;
+  width:fit-content;
+  border-radius:50%;
+  color: white;
+}
+#back:hover{
+  background-color: white;
+  color: black;
+
 }
 .root{
   font-size: 30px;
